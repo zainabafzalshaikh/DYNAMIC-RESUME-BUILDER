@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dynamic Resume Builder</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/0.5.0-beta4/html2canvas.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.4.0/jspdf.umd.min.js"></script>
+</head>
+<body>
+    <form id="resume-form">
+        <fieldset>
+            <h1>Personal Information</h1>
+            <label for="name">Name:</label>
+            <input type="text" id="name" required><br>
+            <label for="email">Email:</label>
+            <input type="email" id="email" required><br>
+        </fieldset>
+        <fieldset>
+            <h1>Education</h1>
+            <label for="degree">Degree:</label>
+            <input type="text" id="degree" required><br>
+            <label for="institute">Institute:</label>
+            <input type="text" id="institute" required><br>
+            
+        </fieldset>
+        <fieldset>
+            <h1>Skills</h1>
+            <label for="skills"></label>
+            <input type="text" id="Skills" >
+        </fieldset>
+        <fieldset>
+            
+            <h1>Work Experience</h1>
+            <label for="experience"></label>
+            <input type="text" id="Experience" required><br>
+        </fieldset>
+        <button id="submit">GENERATE RESUME</button>
+        <button id="download">DOWNLOAD RESUME</button>
+
+    ></form>
+    <div id="resume-display"></div>
+    <script src="app.js"></script>
+
+
+            
+
+
+        
+     
+</body>
+<div>
+
+</div>
+
+</html>

@@ -1,0 +1,67 @@
+body {
+    background-color:rgb(55, 189, 202);
+    font-style: oblique;
+    padding: 20px;
+}
+.resumeform {
+    background-color:rgb(78, 193, 204);
+    border: radius 5px;
+    max-width: 800px;
+    padding:20px;
+    margin: 10%;
+    box-shadow: 10px rgba(0,0,0.1,0.1);
+
+}
+form {
+    margin-bottom: 2px;
+}
+fieldset{
+    border:1px black;
+    margin-bottom: 1px;
+    padding:1px;
+}
+label {
+    margin-bottom: 1px;
+    display:block;
+    border-width:  100px;
+
+}
+input{
+    width:100%;
+    padding:5px;
+    margin-bottom: 1px;
+    box-sizing: border-box;
+    
+
+}
+button{
+    display:block;
+    color:bisque;
+    background-color:rgb(30, 49, 95);
+    cursor: pointer;
+    border-radius: 4px;
+    width: 100px;
+    padding: 10px;
+    
+
+}
+button:hover{
+    background-color: blue;
+}
+#resume{
+    margin-top: 20px;
+    border-top: 2px;
+    padding-top: 20px;
+}
+#Skills{
+    line-height: 100px;
+}
+#Experience{
+    line-height: 100px;
+}
+.btn--download{
+    padding: 10px;
+    width:100px;
+    border-radius:4px;
+    cursor: pointer;
+}
